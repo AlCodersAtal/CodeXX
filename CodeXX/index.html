@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Verification</title>
+  </head>
+  <body>
+    <h2>User Verification</h2>
+    <form action="verify_user.php" method="POST">
+      <label for="uhid">UHID:</label>
+      <input type="text" id="uhid" name="uhid" required /><br /><br />
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required /><br /><br />
+      <label for="phone">Phone Number:</label>
+      <input type="text" id="phone" name="phone" required /><br /><br />
+      <input type="submit" value="Verify" />
+    </form>
+  </body>
+</html>
